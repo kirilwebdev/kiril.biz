@@ -82,21 +82,6 @@ $(function (){
 		}
 	  });
 	
-	/* Resume
-	-----------------------------------------------------*/
-	
-	$('.dimmed-effect .resume-box').mouseenter(function(){
-		$('.dimmed-effect .resume-box').not(this).each(function() {
-            $(this).addClass('disable');
-        });
-	});
-	
-	$('.dimmed-effect .resume-box').mouseleave(function(){
-		$('.dimmed-effect .resume-box').each(function() {
-            $(this).removeClass('disable');
-        });
-	});
-	
 	/* Blog 
 	-----------------------------------------------------*/
 	
