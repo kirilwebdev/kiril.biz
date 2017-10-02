@@ -445,7 +445,7 @@ $(function (){
 	  
 	  var map = new google.maps.Map(document.getElementById('google-map'), myOptions);
 	  
-	  var image = 'http://store.kiril.biz/location.png';
+	  var image = 'https://store.kiril.biz/location.png';
 	  var myLatLng = new google.maps.LatLng(yourLatitude,yourLongitude);
 	  var myLocation = new google.maps.Marker({
 		  position: myLatLng,
